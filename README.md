@@ -30,3 +30,7 @@ Success
 
 Set `"id": 104` when send SQS message to cause one Calculation Lambda failure
 ![failure](images/step-function-3.png)
+
+
+### Links
+1. [New – Step Functions Support for Dynamic Parallelism](https://aws.amazon.com/blogs/aws/new-step-functions-support-for-dynamic-parallelism/)
