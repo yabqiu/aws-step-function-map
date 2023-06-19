@@ -10,11 +10,11 @@ Send message to SQS queue
     "items": [
         {
             "id": 100,
-            "sleep": 2
+            "sleep": 5
         },
         {
             "id": 101,
-            "sleep": 20
+            "sleep": 30
         },
         {
             "id": 103,

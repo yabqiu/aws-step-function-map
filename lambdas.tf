@@ -21,7 +21,7 @@ resource "aws_lambda_function" "start" {
 }
 
 resource "aws_lambda_event_source_mapping" "event_mapping" {
-  event_source_arn = aws_sqs_queue.input_message.arn
+  event_source_arn = aws_sqs_queue.step_function_input.arn
   function_name = aws_lambda_function.start.function_name
   batch_size = 1
 }

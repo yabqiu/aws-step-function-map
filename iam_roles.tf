@@ -28,7 +28,7 @@ EOF
                 "sqs:DeleteMessage",
                 "sqs:GetQueueAttributes"
             ],
-            "Resource": ["${aws_sqs_queue.input_message.arn}"]
+            "Resource": ["${aws_sqs_queue.step_function_input.arn}"]
         },
         {
             "Effect": "Allow",
